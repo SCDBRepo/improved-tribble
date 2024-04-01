@@ -1,18 +1,54 @@
 {
-  "name": "@utilcode/simple-template-advanced",
+  "name": "@scdb/improved-tribble",
   "version": "1.0.0",
-  "description": "",
+  "description": "deterministic JSON.stringify() with custom sorting to get deterministic hashes from stringified results, with no public domain dependencies",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "@scdb/crispy-tribble": "^1.0.0",
+    "@scdb/curly-robot": "^1.0.0",
+    "@scdb/didactic-spoon": "^1.0.0",
+    "@scdb/friendly-octo-couscous": "^1.0.4",
+    "@scdb/glowing-potato": "^1.0.0",
+    "@scdb/silver-octo-meme": "^1.0.1",
+    "@scdb/simple-http": "^1.0.7",
+    "@scdb/urban-carnival": "^1.0.0",
+    "@scdb/urban-octo-garbanzo": "^1.0.0"
   },
-  "author": "",
+  "devDependencies": {
+    "tape": "~1.0.4"
+  },
+  "scripts": {},
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "ff/5",
+      "ff/latest",
+      "chrome/15",
+      "chrome/latest",
+      "safari/latest",
+      "opera/latest"
+    ]
+  },
+  "keywords": [
+    "json",
+    "stringify",
+    "deterministic",
+    "hash",
+    "sort",
+    "stable"
+  ],
+  "author": "thestrangedev",
   "license": "MIT",
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/utilcode/simple-template.git"
+    "url": "https://github.com/SCDBRepo/improved-tribble.git"
   },
-  "dependencies": {
-    "axios": "^1.6.8"
+  "homepage": "https://github.com/SCDBRepo/improved-tribble/#readme",
+  "bugs": {
+    "url": "https://github.com/SCDBRepo/improved-tribble/issues"
   }
 }
